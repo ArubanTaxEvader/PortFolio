@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#imghome{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60%;
+}
+#bodyhome {
+  background-color: #4B5563;
+  background-image: linear-gradient(to bottom right, #464c55, #3a485e, red);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header,
+footer {
+  padding: 40px;
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+#headerhome{
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  border-color: black;
+}
+
+nav a {
+  color: white;
+  margin: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 25px;
+  padding: 9px 20px 10px 20px;
+  -webkit-box-shadow: inset 0 1px 0 #6B7280, 0 10px 0 #6B7280;
+  -moz-box-shadow: inset 0 1px 0 #6B7280, 0 10px 0 #6B7280;
+  box-shadow: inset 0 1px 0 #6B7280, 0 10px 0 #6B7280;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: rgb(177, 233, 231);
+}
+nav a:active {
+  background-color: rgb(177, 233, 231);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+article {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  background-image: linear-gradient(to top left, white, #808690);
+  border-radius: 10px;
+}
+
+#poverlay {
+  border: 1px solid black;
+  text-shadow: 2px 2px 5px white;
+}
+
+#imgsteggink{
+  border: 2px solid black;
+  height: 300px;
+  width: 600px;
+}
+
+#imgovermij{
+  border: 2px solid black;
+  height: 450px;
+  width: 600px;
+}
+
+#imgcontact{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px
+}
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.image-container img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.image-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.image-container2 a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  font-size: 18px;
+}
